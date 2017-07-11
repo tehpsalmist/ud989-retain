@@ -27,7 +27,7 @@ $(function(){
         },
 
         getNotes: function() {
-            return model.getAllNotes.reverse();
+            return model.getAllNotes();
         },
 
         init: function() {
